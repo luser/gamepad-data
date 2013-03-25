@@ -1,0 +1,103 @@
+{"controllers": [
+{"name": "XBox 360 Wireless Controller",
+ "sticks": [
+    {"name": "Left Stick",
+     "shortname": "LS",
+     "button": true
+    },
+    {"name": "Right Stick",
+     "shortname": "RS",
+     "button": true
+    }],
+ "d-pads": [{"name": "Directional Pad",
+            "shortname": "d-pad"
+            }],
+ "buttons": {
+     "face": [
+         {"name": "A"},
+         {"name": "X"},
+         {"name": "B"},
+         {"name": "Y"}
+     ],
+     "control": [
+         {"name": "Start"},
+         {"name": "Back"},
+         {"name": "Xbox"}
+     ],
+     "left_shoulder": [
+         {"name": "Left Button",
+          "shortname": "LB"
+         },
+         {"name": "Left Trigger",
+          "shortname": "LT",
+          "analog": true
+         }
+     ],
+     "right_shoulder": [
+         {"name": "Right Button",
+          "shortname": "RB"
+         },
+         {"name": "Right Trigger",
+          "shortname": "RT",
+          "analog": true
+         }
+     ]
+ }
+},
+{"name": "Sony Playstation 3 Controller",
+ "sticks": [
+    {"name": "Left Stick",
+     "shortname": "LS",
+     "button": true
+    },
+    {"name": "Right Stick",
+     "shortname": "RS",
+     "button": true
+    }],
+ "d-pads": [{"name": "Directional Pad",
+            "shortname": "d-pad",
+             "analog": true
+            }],
+ "buttons": {
+     "face": [
+         {"name": "×",
+          "analog": true
+         },
+         {"name": "□",
+         "analog": true
+         },
+         {"name": "○",
+          "analog": true
+         },
+         {"name": "△",
+          "analog": true
+         }
+     ],
+     "control": [
+         {"name": "Start"},
+         {"name": "Select"},
+         {"name": "Playstation"}
+     ],
+     "left_shoulder": [
+         {"name": "Left Button",
+          "shortname": "L1",
+          "analog": true
+         },
+         {"name": "Left Trigger",
+          "shortname": "L2",
+          "analog": true
+         }
+     ],
+     "right_shoulder": [
+         {"name": "Right Button",
+          "shortname": "R1",
+          "analog": true
+         },
+         {"name": "Right Trigger",
+          "shortname": "R2",
+          "analog": true
+         }
+     ]
+ }
+}
+]}
