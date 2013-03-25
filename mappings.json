@@ -34,9 +34,9 @@
               {"button": 3}
           ],
           "control": [
-              {"button": 7},
               {"button": 6},
-              {"button": 8}
+              {"button": 8},
+              {"button": 7}
           ],
           "left_shoulder": [
               {"button": 4},
@@ -83,9 +83,9 @@
               {"button": 12, "axis": 16}
           ],
           "control": [
-              {"button": 3},
               {"button": 0},
-              {"button": 16}
+              {"button": 16},
+              {"button": 3}
           ],
           "left_shoulder": [
               {"button": 10, "axis": 14},

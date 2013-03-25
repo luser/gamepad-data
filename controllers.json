@@ -20,9 +20,9 @@
          {"name": "Y"}
      ],
      "control": [
-         {"name": "Start"},
          {"name": "Back"},
-         {"name": "Xbox"}
+         {"name": "Xbox"},
+         {"name": "Start"}
      ],
      "left_shoulder": [
          {"name": "Left Button",
@@ -74,9 +74,9 @@
          }
      ],
      "control": [
-         {"name": "Start"},
          {"name": "Select"},
-         {"name": "Playstation"}
+         {"name": "Playstation"},
+         {"name": "Start"}
      ],
      "left_shoulder": [
          {"name": "Left Button",
