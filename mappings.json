@@ -61,15 +61,15 @@
               "press": 1
           },
           {
-              "x": 3,
-              "y": 4,
+              "x": 2,
+              "y": 3,
               "press": 2
           }
       ],
       "d-pads": [
           {
               "type": "buttons",
-              "left": {"button": 7}
+              "left": {"button": 7, "axis": 11}
               "right": {"button": 5, "axis": 9},
               "up": {"button": 4, "axis": 8},
               "down": {"button": 6, "axis": 10}
