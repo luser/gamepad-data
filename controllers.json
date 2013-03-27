@@ -1,5 +1,7 @@
 {"controllers": [
 {"name": "XBox 360 Wireless Controller",
+ "vendor_id": "045e",
+ "product_id": "0719",
  "sticks": [
     {"name": "Left Stick",
      "shortname": "LS",
@@ -15,8 +17,8 @@
  "buttons": {
      "face": [
          {"name": "A"},
-         {"name": "X"},
          {"name": "B"},
+         {"name": "X"},
          {"name": "Y"}
      ],
      "control": [
@@ -45,6 +47,8 @@
  }
 },
 {"name": "Sony Playstation 3 Controller",
+ "vendor_id": "054c",
+ "product_id": "0268",
  "sticks": [
     {"name": "Left Stick",
      "shortname": "LS",
@@ -55,7 +59,7 @@
      "button": true
     }],
  "d-pads": [{"name": "Directional Pad",
-            "shortname": "d-pad",
+             "shortname": "d-pad",
              "analog": true
             }],
  "buttons": {
@@ -63,11 +67,11 @@
          {"name": "×",
           "analog": true
          },
-         {"name": "□",
-         "analog": true
-         },
          {"name": "○",
           "analog": true
+         },
+         {"name": "□",
+         "analog": true
          },
          {"name": "△",
           "analog": true

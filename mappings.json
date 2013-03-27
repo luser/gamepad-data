@@ -29,8 +29,8 @@
       "buttons": {
           "face": [
               {"button": 0},
-              {"button": 2},
               {"button": 1},
+              {"button": 2},
               {"button": 3}
           ],
           "control": [
@@ -78,8 +78,8 @@
       "buttons": {
           "face": [
               {"button": 14, "axis": 18},
-              {"button": 15, "axis": 19},
               {"button": 13: "axis": 17},
+              {"button": 15, "axis": 19},
               {"button": 12, "axis": 16}
           ],
           "control": [
