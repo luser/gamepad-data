@@ -23,4 +23,4 @@ Controller Layout
 
 Controllers are defined in terms of a "platonic ideal" of gamepads, as
 expressed in this diagram:
-![Gamepad Layout](https://raw.github.com/luser/gamepad-data/master/gamepad.svg)
+![Gamepad Layout](http://luser.github.com/gamepad-data/gamepad.svg)
