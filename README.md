@@ -17,3 +17,10 @@ mappings.json
 
 This file contains mappings indicating how the physical controls
 of a specific controller are exposed from a particular driver.
+
+Controller Layout
+=================
+
+Controllers are defined in terms of a "platonic ideal" of gamepads, as
+expressed in this diagram:
+![Gamepad Layout](https://raw.github.com/luser/gamepad-data/master/gamepad.svg)
