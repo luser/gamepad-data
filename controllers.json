@@ -99,5 +99,224 @@
          }
      ]
  }
+},
+{
+ "name": "Microsoft SideWinder Plug & Play Game Pad", 
+ "vendor_id": "045e", 
+ "product_id": "0027", 
+ "sticks": [], 
+ "d-pads": [
+  {
+   "shortname": "d-pad", 
+   "name": "Directional Pad"
+  }
+ ], 
+ "buttons": {
+  "face": [
+   {
+    "name": "A"
+   }, 
+   {
+    "name": "B"
+   }, 
+   {
+    "name": "X"
+   }, 
+   {
+    "name": "Y"
+   }
+  ], 
+  "control": [], 
+  "left_shoulder": [
+   {
+    "name": "LB"
+   }
+  ], 
+  "right_shoulder": [
+   {
+    "name": "RB"
+   }
+  ]
+ }
+},
+{
+ "name": "Gravis GamePad Pro USB", 
+ "vendor_id": "0428", 
+ "product_id": "4001", 
+ "sticks": [], 
+ "d-pads": [
+  {
+   "shortname": "d-pad", 
+   "name": "Directional Pad"
+  }
+ ], 
+ "buttons": {
+  "face": [
+   {
+    "name": "Yellow"
+   }, 
+   {
+    "name": "Green"
+   }, 
+   {
+    "name": "Red"
+   }, 
+   {
+    "name": "Blue"
+   }
+  ], 
+  "control": [
+   {
+    "name": "Select"
+   }, 
+   {
+    "name": "Start"
+   }
+  ], 
+  "left_shoulder": [
+   {
+    "name": "L1"
+   }, 
+   {
+    "name": "L2"
+   }
+  ], 
+  "right_shoulder": [
+   {
+    "name": "R1"
+   }, 
+   {
+    "name": "R2"
+   }
+  ]
+ }
+},
+{
+ "name": "Nyko AIRFLO", 
+ "vendor_id": "124b", 
+ "product_id": "4d01", 
+ "sticks": [
+  {
+   "button": true, 
+   "name": "left stick"
+  }, 
+  {
+   "button": true, 
+   "name": "right stick"
+  }
+ ], 
+ "d-pads": [
+  {
+   "shortname": "d-pad", 
+   "name": "Directional Pad"
+  }
+ ], 
+ "buttons": {
+  "face": [
+   {
+    "name": "1"
+   }, 
+   {
+    "name": "2"
+   }, 
+   {
+    "name": "3"
+   }, 
+   {
+    "name": "4"
+   }
+  ], 
+  "control": [
+   {
+    "name": "9"
+   }, 
+   {
+    "name": "10"
+   }, 
+   {
+    "name": "11"
+   }
+  ], 
+  "left_shoulder": [
+   {
+    "name": "5"
+   }, 
+   {
+    "name": "7"
+   }
+  ], 
+  "right_shoulder": [
+   {
+    "name": "6"
+   }, 
+   {
+    "name": "8"
+   }
+  ]
+ }
+},
+{
+ "name": "Nyko Playpad Pro",
+ "vendor_id": "1d79", 
+ "product_id": "0009", 
+ "sticks": [
+  {
+   "button": true, 
+   "name": "left stick"
+  }, 
+  {
+   "button": true, 
+   "name": "right stick"
+  }
+ ], 
+ "d-pads": [
+  {
+   "shortname": "d-pad", 
+   "name": "Directional Pad"
+  }
+ ], 
+ "buttons": {
+  "face": [
+   {
+    "name": "A"
+   }, 
+   {
+    "name": "B"
+   }, 
+   {
+    "name": "X"
+   }, 
+   {
+    "name": "Y"
+   }
+  ], 
+  "control": [
+   {
+    "name": "?"
+   }, 
+   {
+    "name": "?"
+   }, 
+   {
+    "name": "Home"
+   }
+  ], 
+  "left_shoulder": [
+   {
+    "name": "LB"
+   }, 
+   {
+    "name": "LT"
+   }
+  ], 
+  "right_shoulder": [
+   {
+    "name": "RB"
+   }, 
+   {
+    "name": "RT"
+   }
+  ]
+ }
 }
 ]}
