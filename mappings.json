@@ -96,5 +96,264 @@
               {"button": 9, "axis": 13}
           ]
       }
+    },
+    {
+     "os": "linux", 
+     "driver": "usbhid", 
+     "name": "Microsoft SideWinder Plug & Play Game Pad", 
+     "vendor_id": "045e", 
+     "product_id": "0027", 
+     "sticks": [], 
+     "d-pads": [], 
+     "buttons": {
+      "face": [
+       {
+        "button": 0
+       }, 
+       {
+        "button": 1
+       }, 
+       {
+        "button": 2
+       }, 
+       {
+        "button": 3
+       }
+      ], 
+      "control": [], 
+      "left_shoulder": [
+       {
+        "button": 4
+       }
+      ], 
+      "right_shoulder": [
+       {
+        "button": 5
+       }
+      ]
+     }
+    },
+    {
+     "os": "linux", 
+     "driver": "usbhid", 
+     "name": "Gravis GamePad Pro USB ", 
+     "vendor_id": "0428", 
+     "product_id": "4001", 
+     "sticks": [], 
+     "d-pads": [
+      {
+       "down": {
+        "axis": 1
+       }, 
+       "right": {
+        "axis": 0
+       }, 
+       "type": "axes", 
+       "up": {
+        "axis": 1
+       }, 
+       "left": {
+        "axis": 0
+       }
+      }
+     ], 
+     "buttons": {
+      "face": [
+       {
+        "button": 1
+       }, 
+       {
+        "button": 2
+       }, 
+       {
+        "button": 0
+       }, 
+       {
+        "button": 3
+       }
+      ], 
+      "control": [
+       {
+        "button": 8
+       }, 
+       {
+        "button": 9
+       }
+      ], 
+      "left_shoulder": [
+       {
+        "button": 4
+       }, 
+       {
+        "button": 6
+       }
+      ], 
+      "right_shoulder": [
+       {
+        "button": 5
+       }, 
+       {
+        "button": 7
+       }
+      ]
+     }
+    },
+    {
+     "os": "linux", 
+     "driver": "usbhid", 
+     "name": "Honey Bee AIRFLO", 
+     "vendor_id": "124b", 
+     "product_id": "4d01", 
+     "sticks": [
+      {
+       "press": 11, 
+       "x": 0, 
+       "y": 1
+      }, 
+      {
+       "press": 12, 
+       "x": 3, 
+       "y": 2
+      }
+     ], 
+     "d-pads": [
+      {
+       "down": {
+        "axis": 5
+       }, 
+       "right": {
+        "axis": 4
+       }, 
+       "type": "axes", 
+       "up": {
+        "axis": 5
+       }, 
+       "left": {
+        "axis": 4
+       }
+      }
+     ], 
+     "buttons": {
+      "face": [
+       {
+        "button": 0
+       }, 
+       {
+        "button": 1
+       }, 
+       {
+        "button": 2
+       }, 
+       {
+        "button": 3
+       }
+      ], 
+      "control": [
+       {
+        "button": 8
+       }, 
+       {
+        "button": 9
+       }, 
+       {
+        "button": 10
+       }
+      ], 
+      "left_shoulder": [
+       {
+        "button": 4
+       }, 
+       {
+        "button": 6
+       }
+      ], 
+      "right_shoulder": [
+       {
+        "button": 5
+       }, 
+       {
+        "button": 7
+       }
+      ]
+     }
+    },
+    {
+     "os": "linux", 
+     "driver": "bluetooth", 
+     "name": "NYKO PLAYPAD PRO", 
+     "vendor_id": "1d79", 
+     "product_id": "0009", 
+     "sticks": [
+      {
+       "press": 13, 
+       "x": 0, 
+       "y": 1
+      }, 
+      {
+       "press": 14, 
+       "x": 2, 
+       "y": 3
+      }
+     ], 
+     "d-pads": [
+      {
+       "down": {
+        "axis": 7
+       }, 
+       "right": {
+        "axis": 6
+       }, 
+       "type": "axes", 
+       "up": {
+        "axis": 7
+       }, 
+       "left": {
+        "axis": 6
+       }
+      }
+     ], 
+     "buttons": {
+      "face": [
+       {
+        "button": 0
+       }, 
+       {
+        "button": 1
+       }, 
+       {
+        "button": 3
+       }, 
+       {
+        "button": 4
+       }
+      ], 
+      "control": [
+       {
+        "button": -1
+       }, 
+       {
+        "button": 11
+       }, 
+       {
+        "button": -1
+       }
+      ], 
+      "left_shoulder": [
+       {
+        "button": 6
+       }, 
+       {
+        "axis": 5
+       }
+      ], 
+      "right_shoulder": [
+       {
+        "button": 7
+       }, 
+       {
+        "axis": 4
+       }
+      ]
+     }
     }
 ]}
