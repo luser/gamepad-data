@@ -23,8 +23,8 @@
      ],
      "control": [
          {"name": "Back"},
-         {"name": "Xbox"},
-         {"name": "Start"}
+         {"name": "Start"},
+         {"name": "Xbox"}
      ],
      "left_shoulder": [
          {"name": "Left Button",
@@ -79,26 +79,22 @@
      ],
      "control": [
          {"name": "Select"},
-         {"name": "Playstation"},
-         {"name": "Start"}
+         {"name": "Start"},
+         {"name": "Playstation"}
      ],
      "left_shoulder": [
-         {"name": "Left Button",
-          "shortname": "L1",
+         {"name": "L1",
           "analog": true
          },
-         {"name": "Left Trigger",
-          "shortname": "L2",
+         {"name": "L2",
           "analog": true
          }
      ],
      "right_shoulder": [
-         {"name": "Right Button",
-          "shortname": "R1",
+         {"name": "R1",
           "analog": true
          },
-         {"name": "Right Trigger",
-          "shortname": "R2",
+         {"name": "R2",
           "analog": true
          }
      ]

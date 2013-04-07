@@ -35,8 +35,8 @@
           ],
           "control": [
               {"button": 6},
-              {"button": 8},
-              {"button": 7}
+              {"button": 7},
+              {"button": 8}
           ],
           "left_shoulder": [
               {"button": 4},
@@ -69,7 +69,7 @@
       "d-pads": [
           {
               "type": "buttons",
-              "left": {"button": 7, "axis": 11}
+              "left": {"button": 7, "axis": 11},
               "right": {"button": 5, "axis": 9},
               "up": {"button": 4, "axis": 8},
               "down": {"button": 6, "axis": 10}
@@ -78,14 +78,14 @@
       "buttons": {
           "face": [
               {"button": 14, "axis": 18},
-              {"button": 13: "axis": 17},
+              {"button": 13, "axis": 17},
               {"button": 15, "axis": 19},
               {"button": 12, "axis": 16}
           ],
           "control": [
               {"button": 0},
-              {"button": 16},
-              {"button": 3}
+              {"button": 3},
+              {"button": 16}
           ],
           "left_shoulder": [
               {"button": 10, "axis": 14},
@@ -96,5 +96,5 @@
               {"button": 9, "axis": 13}
           ]
       }
-    },
+    }
 ]}
