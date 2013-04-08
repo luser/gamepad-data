@@ -104,7 +104,23 @@
      "vendor_id": "045e", 
      "product_id": "0027", 
      "sticks": [], 
-     "d-pads": [], 
+     "d-pads": [
+      {
+       "down": {
+        "axis": 1
+       },
+       "right": {
+        "axis": 0
+       },
+       "type": "axes",
+       "up": {
+        "axis": 1
+       },
+       "left": {
+        "axis": 0
+       }
+      }
+     ],
      "buttons": {
       "face": [
        {
