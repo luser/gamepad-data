@@ -1,7 +1,7 @@
 {"controllers": [
 {"name": "XBox 360 Wireless Controller",
  "vendor_id": "045e",
- "product_id": "0719",
+ "product_ids": ["0719", "028e"],
  "sticks": [
     {"name": "Left Stick",
      "shortname": "LS",
@@ -48,7 +48,7 @@
 },
 {"name": "Sony Playstation 3 Controller",
  "vendor_id": "054c",
- "product_id": "0268",
+ "product_ids": ["0268"],
  "sticks": [
     {"name": "Left Stick",
      "shortname": "LS",
@@ -103,7 +103,7 @@
 {
  "name": "Microsoft SideWinder Plug & Play Game Pad", 
  "vendor_id": "045e", 
- "product_id": "0027", 
+ "product_ids": ["0027"],
  "sticks": [], 
  "d-pads": [
   {
@@ -142,7 +142,7 @@
 {
  "name": "Gravis GamePad Pro USB", 
  "vendor_id": "0428", 
- "product_id": "4001", 
+ "product_ids": ["4001"], 
  "sticks": [], 
  "d-pads": [
   {
@@ -194,7 +194,7 @@
 {
  "name": "Nyko AIRFLO", 
  "vendor_id": "124b", 
- "product_id": "4d01", 
+ "product_ids": ["4d01"],
  "sticks": [
   {
    "button": true, 
@@ -258,7 +258,7 @@
 {
  "name": "Nyko Playpad Pro",
  "vendor_id": "1d79", 
- "product_id": "0009", 
+ "product_ids": ["0009"],
  "sticks": [
   {
    "button": true, 
