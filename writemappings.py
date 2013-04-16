@@ -24,7 +24,6 @@ Usage: writemappings.py <mappings.json> <output header.h>
 import json
 import sys
 from operator import itemgetter
-from collections import defaultdict
 from itertools import chain
 
 file_template = """
@@ -42,6 +41,10 @@ file_template = """
 const gamepad_mapping mappings[] = {
 #ifdef __linux__%(linux)s
 #endif /* __linux__ */
+#ifdef __APPLE__%(mac)s
+#endif /* __APPLE__ */
+#ifdef _WIN32%(windows)s
+#endif /* _WIN32 */
 };
 const size_t kNumMappings = sizeof(mappings) / sizeof(mappings[0]);
 
@@ -58,6 +61,13 @@ entry_template = """
  %(buttons)s,
  %(axes)s
 }"""
+
+empty_entry = entry_template % {"driver": "",
+                                "vendor_id": 0,
+                                "product_id": 0,
+                                "buttons": buttons_template % ((-1,) * kStandardButtons * 3),
+                                "axes": axes_template % (-1,-1,-1,-1)
+                                }
 
 def process_buttons(obj, *args):
     """
@@ -108,7 +118,9 @@ def process_dpad_axes(dpad):
 
 def main(args):
     data = json.loads(open(args[0], "r").read())
-    mappings = defaultdict(list)
+    mappings = {'linux': [],
+                'mac': [],
+                'windows': []}
     for m in sorted(data['mappings'], key=itemgetter("os",
                                                      "vendor_id",
                                                      "product_id",
@@ -170,6 +182,9 @@ def main(args):
             "axes": axes
             }
         mappings[m["os"]].append(entry)
+    for k,v in mappings.iteritems():
+        if not v:
+            v.append(empty_entry);
     with open(args[1], 'wb') as out:
         out.write(file_template %
                   dict((k, ",".join(v)) for k,v in mappings.iteritems()))
