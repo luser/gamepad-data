@@ -49,6 +49,85 @@
       }
     },
     {
+        "os": "linux",
+        "driver": "xpad",
+        "name": "Generic X-Box pad",
+        "vendor_id": "046d",
+        "product_id": "c21d",
+        "sticks": [
+            {
+                "press": 9,
+                "x": 0,
+                "y": 1
+            },
+            {
+                "press": 10,
+                "x": 3,
+                "y": 4
+            }
+        ],
+        "d-pads": [
+            {
+                "down": {
+                    "axis": 7
+                },
+                "right": {
+                    "axis": 6
+                },
+                "type": "axes",
+                "up": {
+                    "axis": 7
+                },
+                "left": {
+                    "axis": 6
+                }
+            }
+        ],
+        "buttons": {
+            "face": [
+                {
+                    "button": 0
+                },
+                {
+                    "button": 1
+                },
+                {
+                    "button": 2
+                },
+                {
+                    "button": 3
+                }
+            ],
+            "control": [
+                {
+                    "button": 6
+                },
+                {
+                    "button": 7
+                },
+                {
+                    "button": 8
+                }
+            ],
+            "left_shoulder": [
+                {
+                    "button": 4
+                },
+                {
+                    "axis": 2
+                }
+            ],
+            "right_shoulder": [
+                {
+                    "button": 5
+                },
+                {
+                    "axis": 5
+                }
+            ]
+        }
+    }
+    {
      "os": "linux",
      "driver": "usbhid",
      "name": "PLAYSTATION(R)3 Controller",
@@ -94,6 +173,87 @@
           "right_shoulder": [
               {"button": 11, "axis": 15},
               {"button": 9, "axis": 13}
+          ]
+      }
+    },
+    {
+      "os": "linux",
+      "driver": "usbhid",
+      "name": "Sony Computer Entertainment Wireless Controller",
+      "vendor_id": "054c",
+      "product_id": "05c4",
+      "sticks": [
+          {
+              "press": 10,
+              "x": 0,
+              "y": 1
+          },
+          {
+              "press": 11,
+              "x": 2,
+              "y": 5
+          }
+      ],
+      "d-pads": [
+          {
+              "type": "axes",
+              "down": {
+                  "axis": 7
+              },
+              "right": {
+                  "axis": 6
+              },
+              "up": {
+                 "axis": 7
+              },
+              "left": {
+                  "axis": 6
+              }
+          }
+      ],
+      "buttons": {
+          "face": [
+              {
+                 "button": 1
+              },
+              {
+                  "button": 2
+              },
+              {
+                  "button": 0
+              },
+              {
+                  "button": 3
+              }
+         ],
+         "control": [
+             {
+                 "button": 8
+             },
+             {
+                 "button": 9
+             },
+             {
+                 "button": 12
+             }
+         ],
+          "left_shoulder": [
+             {
+                 "button": 4
+             },
+             {
+                 "button": 6,
+                 "axis": 3
+             }
+          ],
+          "right_shoulder": [
+             {
+                 "button": 5,
+             },
+             {
+                 "button": 7,
+                 "axis": 4
+             }
           ]
       }
     },
