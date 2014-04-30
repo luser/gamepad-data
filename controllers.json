@@ -46,6 +46,100 @@
      ]
  }
 },
+{"name": "XBox One Controller",
+ "vendor_id": "045e",
+ "product_ids": ["02d1"],
+ "sticks": [
+    {"name": "Left Stick",
+     "shortname": "LS",
+     "button": true
+    },
+    {"name": "Right Stick",
+     "shortname": "RS",
+     "button": true
+    }],
+ "d-pads": [{"name": "Directional Pad",
+            "shortname": "d-pad"
+            }],
+ "buttons": {
+     "face": [
+         {"name": "A"},
+         {"name": "B"},
+         {"name": "X"},
+         {"name": "Y"}
+     ],
+     "control": [
+         {"name": "View"},
+         {"name": "Menu"},
+         {"name": "Xbox"}
+     ],
+     "left_shoulder": [
+         {"name": "Left Button",
+          "shortname": "LB"
+         },
+         {"name": "Left Trigger",
+          "shortname": "LT",
+          "analog": true
+         }
+     ],
+     "right_shoulder": [
+         {"name": "Right Button",
+          "shortname": "RB"
+         },
+         {"name": "Right Trigger",
+          "shortname": "RT",
+          "analog": true
+         }
+     ]
+ }
+},
+{"name": "Logitech F310",
+ "vendor_id": "046d",
+ "product_ids": ["c21d"],
+ "sticks": [
+    {"name": "Left Stick",
+     "shortname": "LS",
+     "button": true
+    },
+    {"name": "Right Stick",
+     "shortname": "RS",
+     "button": true
+    }],
+ "d-pads": [{"name": "Directional Pad",
+            "shortname": "d-pad"
+            }],
+ "buttons": {
+     "face": [
+         {"name": "A"},
+         {"name": "B"},
+         {"name": "X"},
+         {"name": "Y"}
+     ],
+     "control": [
+         {"name": "Back"},
+         {"name": "Start"},
+         {"name": "Xbox"}
+     ],
+     "left_shoulder": [
+         {"name": "Left Button",
+          "shortname": "LB"
+         },
+         {"name": "Left Trigger",
+          "shortname": "LT",
+          "analog": true
+         }
+     ],
+     "right_shoulder": [
+         {"name": "Right Button",
+          "shortname": "RB"
+         },
+         {"name": "Right Trigger",
+          "shortname": "RT",
+          "analog": true
+         }
+     ]
+ }
+},
 {"name": "Sony Playstation 3 Controller",
  "vendor_id": "054c",
  "product_ids": ["0268"],
@@ -80,6 +174,51 @@
      "control": [
          {"name": "Select"},
          {"name": "Start"},
+         {"name": "Playstation"}
+     ],
+     "left_shoulder": [
+         {"name": "L1",
+          "analog": true
+         },
+         {"name": "L2",
+          "analog": true
+         }
+     ],
+     "right_shoulder": [
+         {"name": "R1",
+          "analog": true
+         },
+         {"name": "R2",
+          "analog": true
+         }
+     ]
+ }
+},
+{"name": "Sony Playstation 4 Controller",
+ "vendor_id": "054c",
+ "product_ids": ["05c4"],
+ "sticks": [
+    {"name": "Left Stick",
+     "shortname": "LS",
+     "button": true
+    },
+    {"name": "Right Stick",
+     "shortname": "RS",
+     "button": true
+    }],
+ "d-pads": [{"name": "Directional Pad",
+             "shortname": "d-pad"
+            }],
+ "buttons": {
+     "face": [
+         {"name": "×"},
+         {"name": "○"},
+         {"name": "□"},
+         {"name": "△"}
+     ],
+     "control": [
+         {"name": "Share"},
+         {"name": "Options"},
          {"name": "Playstation"}
      ],
      "left_shoulder": [
