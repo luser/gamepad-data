@@ -126,7 +126,7 @@
                 }
             ]
         }
-    }
+    },
     {
      "os": "linux",
      "driver": "usbhid",
@@ -248,7 +248,7 @@
           ],
           "right_shoulder": [
              {
-                 "button": 5,
+                 "button": 5
              },
              {
                  "button": 7,
