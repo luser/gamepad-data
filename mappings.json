@@ -1,6 +1,6 @@
 {"mappings": [
     {
-     "os": "linux",
+     "type": "linux",
      "driver": "xpad",
      "name": "Xbox 360 Wireless Receiver",
      "vendor_id": "045e",
@@ -49,7 +49,7 @@
       }
     },
     {
-        "os": "linux",
+        "type": "linux",
         "driver": "xpad",
         "name": "Generic X-Box pad",
         "vendor_id": "046d",
@@ -128,7 +128,7 @@
         }
     },
     {
-     "os": "linux",
+     "type": "linux",
      "driver": "usbhid",
      "name": "PLAYSTATION(R)3 Controller",
      "vendor_id": "054c",
@@ -177,7 +177,7 @@
       }
     },
     {
-      "os": "linux",
+      "type": "linux",
       "driver": "usbhid",
       "name": "Sony Computer Entertainment Wireless Controller",
       "vendor_id": "054c",
@@ -258,7 +258,7 @@
       }
     },
     {
-     "os": "linux",
+     "type": "linux",
      "driver": "usbhid",
      "name": "Microsoft SideWinder Plug & Play Game Pad",
      "vendor_id": "045e",
@@ -310,7 +310,7 @@
      }
     },
     {
-     "os": "linux",
+     "type": "linux",
      "driver": "usbhid",
      "name": "Gravis GamePad Pro USB ",
      "vendor_id": "0428",
@@ -375,7 +375,7 @@
      }
     },
     {
-     "os": "linux",
+     "type": "linux",
      "driver": "usbhid",
      "name": "Honey Bee AIRFLO",
      "vendor_id": "124b",
@@ -454,7 +454,7 @@
      }
     },
     {
-     "os": "linux",
+     "type": "linux",
      "driver": "bluetooth",
      "name": "NYKO PLAYPAD PRO",
      "vendor_id": "1d79",
