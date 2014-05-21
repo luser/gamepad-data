@@ -531,5 +531,84 @@
        }
       ]
      }
+    },
+    {
+     "type": "linux",
+     "driver": "xpad",
+     "name": "Microsoft X-Box One pad",
+     "vendor_id": "045e",
+     "product_id": "02d1",
+     "sticks": [
+      {
+       "press": 9,
+       "x": 0,
+       "y": 1
+      },
+      {
+       "press": 10,
+       "x": 3,
+       "y": 4
+      }
+     ],
+     "d-pads": [
+      {
+       "down": {
+        "axis": 7
+       },
+       "right": {
+        "axis": 6
+       },
+       "type": "axes",
+       "up": {
+        "axis": 7
+       },
+       "left": {
+        "axis": 6
+       }
+      }
+     ],
+     "buttons": {
+      "face": [
+       {
+        "button": 0
+       },
+       {
+        "button": 1
+       },
+       {
+        "button": 2
+       },
+       {
+        "button": 3
+       }
+      ],
+      "control": [
+       {
+        "button": 6
+       },
+       {
+        "button": 7
+       },
+       {
+        "button": 8
+       }
+      ],
+      "left_shoulder": [
+       {
+        "button": 4
+       },
+       {
+        "axis": 2
+       }
+      ],
+      "right_shoulder": [
+       {
+        "button": 5
+       },
+       {
+        "axis": 5
+       }
+      ]
+     }
     }
 ]}
